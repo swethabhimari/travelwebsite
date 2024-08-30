@@ -1,0 +1,192 @@
+.head1{
+    justify-content: space-between;
+    .tr{
+      position: relative;
+      left:200px;
+      top:30px;
+      font-size: 30px;
+      color:blue;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+a{
+    float: right;
+    position: relative;
+    right:300px;
+    top:30px;
+    text-decoration: none;
+}    
+.p1{
+    color: white;
+    font-size: 40px;
+    position: relative;
+      left:200px;
+      top:30px;
+}
+.p2{
+    position: relative;
+    bottom:1px;
+    left: 200px;
+    color: white;
+    font-size: 40px;
+    position: relative;
+      
+}
+.p3{
+    color:white;
+    position: relative;
+    left:200px;
+    top:20px;
+}
+.a2{
+    display: block;
+    position: relative;
+    right:900px;
+    background-color: blue;
+    padding:10px 30px 10px 30px;
+    color:white;
+}
+.a2:hover{
+    background-color: white;
+    color: blue;
+    transform: scale(1.5,1.5);
+}
+}
+header{
+    background-image: url(https://assets.bucketlistly.blog/sites/5adf778b6eabcc00190b75b1/content_entry5b155bed5711a8176e9f9783/5c4fbe2246025317508def41/files/nepal-everest-base-camp-everest-travel-photo-20190128094442660-main-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.main{
+    display: flex;
+    gap:30px;
+    position: relative;
+    top:100px;
+    width: 700px;
+    padding: 50px 280px 50px 280px ;
+    background-color:white;
+}
+.h2{
+    color: blue;
+  position: relative;
+  right: 200px;
+  bottom: 150px;
+}
+.b1{
+    background-color: rgb(237, 229, 229);
+    height: 250px;
+    width:500px;
+    position: relative;
+    right: 200px;
+    .img1{
+        position: relative;
+        left: 30px;
+        top:10px;
+        width: 100px;
+    }
+}
+.b2{
+    background-color: rgb(237, 229, 229);
+    height: 250px;
+    width:500px;
+    position: relative;
+    right: 150px;
+    .img2{
+        position: relative;
+        left: 30px;
+        top:10px;
+        width: 100px;
+    }
+}
+.b3{
+    background-color: rgb(237, 229, 229);
+    height: 250px;
+    width:500px;
+    position: relative;
+    right: 80px;
+    .img3{
+        position: relative;
+        left: 30px;
+        top:10px;
+        width: 100px;
+    }
+    .h6{
+        text-align: center;
+    }
+}
+.b1:hover{
+    border: 5px solid green;
+    background-color: wheat;
+    transform: scale(1.2,1.2);
+    transition-delay: 1s;
+    transition-timing-function: ease-in;
+    .img1{
+        position: relative;
+        left: 8px;
+        top:10px;
+        width: 150px;
+    }
+}
+.b2:hover{
+    border: 5px solid green;
+    background-color: wheat;
+    transform: scale(1.2,1.2);
+    transition-delay: 1s;
+    transition-timing-function: ease-in;
+    .img2{
+        position: relative;
+        left: 8px;
+        top:10px;
+        width: 150px;
+    }
+}
+.b3:hover{
+    border: 5px solid green;
+    background-color:wheat;
+    transform: scale(1.2,1.2);
+    transition-delay: 1s;
+    transition-timing-function: ease-in;
+    .img3{
+        position: relative;
+        left: 8px;
+        top:10px;
+        width: 150px;
+    }
+}
+.footer{
+    background-color: blue;
+    width: 1300px;
+    height: 200px;
+    position: relative;
+    top:200px;
+}
+.ol{
+    color:aliceblue;
+    position: relative;
+    left:100px;
+    top:50px;
+}
+.pf4{
+    color: aliceblue;
+    position: relative;
+    left: 100px;
+    top:50px;
+}
+.pf1{
+color:white;
+font-size: 20px;
+position: relative;
+left:1000px;
+}
+.pf2{
+    color:white;
+    font-size: 20px;
+    position: relative;
+    left: 989px;
+    }
+    .pf3{
+        color: white;
+        position: relative;
+        left: 940px;
+        }
+    
