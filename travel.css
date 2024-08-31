@@ -46,13 +46,13 @@ a{
     color:white;
 }
 .a2:hover{
-    background-color: white;
+    background-color:greenyellow;
     color: blue;
     transform: scale(1.5,1.5);
 }
 }
 header{
-    background-image: url(https://img.freepik.com/premium-photo/freedom-traveler-takes-pictures-scenic-nature-view_960396-643726.jpg?w=826);
+    background-image: url(https://wallpapercave.com/wp/wp2481186.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
