@@ -189,4 +189,160 @@ left:1000px;
         position: relative;
         left: 940px;
         }
-    
+    /* Default for larger screens */
+@media only screen and (min-width: 1024px) {
+    /* Existing styles will apply here */
+}
+
+/* For tablets (landscape mode) */
+@media only screen and (max-width: 1024px) {
+    .head1 {
+        .tr {
+            left: 50px;
+            font-size: 25px;
+        }
+        a {
+            right: 50px;
+        }
+        .p1, .p2, .p3 {
+            left: 50px;
+            font-size: 30px;
+        }
+        .a2 {
+            right: 500px;
+            padding: 10px 20px;
+        }
+    }
+
+    .main {
+        width: 100%;
+        padding: 20px 100px;
+    }
+
+    .b1, .b2, .b3 {
+        width: 100%;
+        height: 200px;
+        right: 0px;
+        .img1, .img2, .img3 {
+            width: 80px;
+        }
+    }
+
+    .footer {
+        width: 100%;
+        height: 150px;
+    }
+    .ol, .pf4 {
+        left: 50px;
+        top: 30px;
+    }
+    .pf1, .pf2, .pf3 {
+        left: 800px;
+    }
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 768px) {
+    .head1 {
+        .tr {
+            left: 20px;
+            font-size: 20px;
+        }
+        a {
+            right: 20px;
+            top: 10px;
+        }
+        .p1, .p2, .p3 {
+            left: 20px;
+            font-size: 25px;
+        }
+        .a2 {
+            right: 200px;
+            padding: 10px 15px;
+        }
+    }
+
+    header {
+        height: 300px;
+    }
+
+    .main {
+        width: 100%;
+        padding: 10px 50px;
+        flex-direction: column;
+    }
+
+    .b1, .b2, .b3 {
+        width: 100%;
+        height: 150px;
+        right: 0px;
+        .img1, .img2, .img3 {
+            width: 60px;
+        }
+    }
+
+    .footer {
+        width: 100%;
+        height: 100px;
+    }
+    .ol, .pf4 {
+        left: 20px;
+        top: 10px;
+    }
+    .pf1, .pf2, .pf3 {
+        left: 600px;
+    }
+}
+
+/* For small mobile devices */
+@media only screen and (max-width: 480px) {
+    .head1 {
+        .tr {
+            left: 10px;
+            font-size: 18px;
+        }
+        a {
+            right: 10px;
+            top: 5px;
+        }
+        .p1, .p2, .p3 {
+            left: 10px;
+            font-size: 20px;
+        }
+        .a2 {
+            right: 100px;
+            padding: 5px 10px;
+        }
+    }
+
+    header {
+        height: 200px;
+    }
+
+    .main {
+        width: 100%;
+        padding: 5px 20px;
+        flex-direction: column;
+    }
+
+    .b1, .b2, .b3 {
+        width: 100%;
+        height: 100px;
+        right: 0px;
+        .img1, .img2, .img3 {
+            width: 50px;
+        }
+    }
+
+    .footer {
+        width: 100%;
+        height: 80px;
+    }
+    .ol, .pf4 {
+        left: 10px;
+        top: 5px;
+    }
+    .pf1, .pf2, .pf3 {
+        left: 300px;
+    }
+}
